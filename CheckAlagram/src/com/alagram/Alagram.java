@@ -16,7 +16,6 @@ public class Alagram {
 		
 
 		System.out.println(checkAlagram(s1, s2));
-		System.out.println("hey this is change from macbook pro");
 
 	}
 
