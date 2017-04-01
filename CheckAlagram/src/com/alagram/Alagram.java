@@ -14,8 +14,6 @@ public class Alagram {
 		String s2 = scan.nextLine();
 		scan.close();
 		
-		System.out.println("test change");
-		System.out.println("change made from windows");
 
 		System.out.println(checkAlagram(s1, s2));
 		System.out.println("hey this is change from macbook pro");
