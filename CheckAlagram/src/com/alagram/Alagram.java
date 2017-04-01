@@ -13,6 +13,8 @@ public class Alagram {
 		System.out.println("Enter the String2 ");
 		String s2 = scan.nextLine();
 		scan.close();
+		
+		System.out.println("test change");
 
 		System.out.println(checkAlagram(s1, s2));
 
