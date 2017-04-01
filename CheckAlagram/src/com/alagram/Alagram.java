@@ -15,12 +15,12 @@ public class Alagram {
 		scan.close();
 
 		System.out.println(checkAlagram(s1, s2));
-	System.out.println("hey this is change from macbook pro");
+		System.out.println("hey this is change from macbook pro");
 
 	}
 
 	private static boolean checkAlagram(String s1, String s2) {
-		boolean isAlagram =false;
+		boolean isAlagram = false;
 		String s1Sub = s1.replaceAll("\\s", "");
 		String s2Sub = s2.replaceAll("\\s", "");
 		if (s1Sub.length() != s2Sub.length()) {
