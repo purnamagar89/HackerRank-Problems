@@ -15,6 +15,7 @@ public class Alagram {
 		scan.close();
 		
 		System.out.println("test change");
+		System.out.println("change made from windows");
 
 		System.out.println(checkAlagram(s1, s2));
 
